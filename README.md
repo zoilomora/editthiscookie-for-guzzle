@@ -7,6 +7,11 @@ This implementation allows the use of cookies exported from the Google Chrome [E
 directly in [Guzzle] and in turn.. the cookies that [Guzzle] has modified re-import them into the browser.
 
 Example:
+
+Once the website is logged in, export the cookies `json` in a `cookies.json` file.
+
+![export option][images/export.png]
+
 ```php
 <?php
 declare(strict_types=1);
@@ -16,9 +21,6 @@ $client = new \GuzzleHttp\Client([
     'cookies' => new \ZoiloMora\EditThisCookie\Guzzle\FileCookieJar($cookieFile),
 ]);
 ```
-
-## ToDo
-- Screenshots to export and import cookies with the Google Chrome [EditThisCookie] extension.
 
 ## License
 Licensed under the [MIT license](http://opensource.org/licenses/MIT)
