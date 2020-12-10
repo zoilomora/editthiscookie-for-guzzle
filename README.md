@@ -10,7 +10,7 @@ Example:
 
 Once the website is logged in, export the cookies `json` in a `cookies.json` file.
 
-![export option][images/export.png]
+![export option](images/export.png)
 
 ```php
 <?php
