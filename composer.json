@@ -1,0 +1,28 @@
+{
+    "name": "zoilomora/edit-this-cookie-for-guzzle",
+    "type": "library",
+    "description": "FileCookieJar implementation for EditThisCookie in Guzzle",
+    "license": "MIT",
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "guzzlehttp/guzzle": "^7.2"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "autoload": {
+        "psr-4": {
+            "ZoiloMora\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "ZoiloMora\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "pccomponentes/coding-standard": "^1.2",
+        "phpstan/phpstan": "^0.12.59",
+        "phpunit/phpunit": "^9.5"
+    }
+}
