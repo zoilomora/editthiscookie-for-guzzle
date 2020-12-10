@@ -1,5 +1,5 @@
 {
-    "name": "zoilomora/edit-this-cookie-for-guzzle",
+    "name": "zoilomora/editthiscookie-for-guzzle",
     "type": "library",
     "description": "FileCookieJar implementation for EditThisCookie in Guzzle",
     "license": "MIT",
